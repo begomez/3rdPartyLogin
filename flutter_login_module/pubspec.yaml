@@ -1,0 +1,32 @@
+name: flutter_login_module
+description: 3rd party login module
+version: 0.0.8
+author: Sparsity Technologies<sparsity.dev@gmail.com>
+homepage: https://www.sparsity-technologies.com/
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^0.16.1
+  google_sign_in: ^4.5.6
+  apple_sign_in: ^0.1.0
+  webview_flutter: ^0.3.19+7
+  flutter_webview_plugin: ^0.3.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/apple-logo.png
+    - assets/images/google-logo.png
+    - assets/images/facebook-logo.png
+    - assets/images/2.0x/google-logo.png
+    - assets/images/2.0x/facebook-logo.png
+    - assets/images/3.0x/google-logo.png
+    - assets/images/3.0x/facebook-logo.png
